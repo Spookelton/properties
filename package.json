@@ -1,0 +1,28 @@
+{
+  "name": "sw-properties",
+  "version": "1.0.0",
+  "description": "Properties serverWrapper module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spookelton/properties.git"
+  },
+  "author": "Inrixia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spookelton/properties/issues"
+  },
+  "homepage": "https://github.com/Spookelton/properties#readme",
+  "dependencies": {
+    "@spookelton/wrapperHelpers": "file:../../submodules/wrapperHelpers",
+    "chalk": "^4.1.0",
+    "minecraft-server-util": "^3.4.3",
+    "properties": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
